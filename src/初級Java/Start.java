@@ -8,6 +8,8 @@ public class Start {
 
 		MyFrame frame1= new RectTest();
 		MyFrame frame2= new OvalTest();
+		//MyFrame frame3= new TextTest();
+
 
 
 	}
