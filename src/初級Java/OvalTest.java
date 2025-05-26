@@ -11,10 +11,7 @@ public class OvalTest extends MyFrame {
 
 		fillRect(30, 200, 150, 10);
 
-		fillRect(200, 200, 75, 30);
-		fillRect(160, 230, 150, 30);
-		fillOval(100, 260, 120, 120);
-		fillOval(250, 260, 120, 120);
+
 
 	}
 
