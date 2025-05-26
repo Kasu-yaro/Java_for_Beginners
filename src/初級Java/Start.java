@@ -7,6 +7,8 @@ public class Start {
 		System.out.println("ああああああああああああああああああ");
 
 		MyFrame frame1= new RectTest();
+		MyFrame frame2= new OvalTest();
+
 
 	}
 }
