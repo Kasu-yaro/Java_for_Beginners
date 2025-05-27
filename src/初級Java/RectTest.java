@@ -17,10 +17,25 @@ public class RectTest extends MyFrame {
 		setColor(100, 100, 100);
 		fillRect(360, 40, 50, 100);
 
-		for (int j = 0; j <= 100; j++) {
-			for (int i = 0; i <= 100; i++) {
-				setColor(255 - (i * 10), 255 - (i * 10), 255 - (i * 10));
-				fillRect(90 + (i * 35), 160 + (j * 35), 30, 30);
+		for (int j = 0; j <= 50; j++) {
+
+			int C = 0;
+			int X = 255;
+
+			for (int i = 0; i <= 50; i++) {
+
+				//setColor(255 - (i * 30), 255 - (i * 30), C*10);
+				//fillRect(10+(i * 15), 160 + (j * 15), 15, 15);
+
+				if (C <= 255) {
+					setColor(255 - C, 255 - C, 255 - C);
+					fillRect(10 + (i * 15), 160 + (j * 15), 15, 15);
+					C += 10;
+				} else {
+					setColor(255 - X, 255 - X, 255 - X);
+					fillRect(10 + (i * 15), 160 + (j * 15), 15, 15);
+					X -= 10;
+				}
 			}
 		}
 

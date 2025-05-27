@@ -2,14 +2,22 @@ package 初級Java;
 
 public class RectLoop extends MyFrame {
 	public void run() {
+/*
+		int y=0;
+		for (int x = 0; x < 100; x++) {
 
-		for (int y = 0; y < 100; y++) {
+				fillRect(20 * x, 80 +y, 10, 100);
+				
+				y +=20;
+		}
+	*/
+		
+		int y=0;
+		for (int x = 0; x < 20; x++) {
 
-			for (int x = 0; x < 100; x++) {
-				fillRect(20 * x, 80 + 20 * y, 10, 10);
-
-			}
+				fillRect(20 * x, 80, 10, 10+y);
+				
+				y +=10;
 		}
 	}
-
 }
