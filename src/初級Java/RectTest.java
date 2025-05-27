@@ -28,13 +28,14 @@ public class RectTest extends MyFrame {
 				//fillRect(10+(i * 15), 160 + (j * 15), 15, 15);
 
 				if (C <= 255) {
-					setColor(255 - C, 255 - C, 255 - C);
+					setColor(C, C, C);
 					fillRect(10 + (i * 15), 160 + (j * 15), 15, 15);
 					C += 10;
 				} else {
-					setColor(255 - X, 255 - X, 255 - X);
+					setColor(X, X, X);
 					fillRect(10 + (i * 15), 160 + (j * 15), 15, 15);
 					X -= 10;
+
 				}
 			}
 		}
