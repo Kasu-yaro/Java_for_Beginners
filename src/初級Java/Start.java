@@ -14,8 +14,8 @@ public class Start {
 		//MyFrame frame5 = new DisplayRectsSlow();
 		//MyFrame frame6 = new Animation();
 		//MyFrame frame7 = new DisplayFace();
-		MyFrame frame8 = new DisplayFaceObject();
-
+		//MyFrame frame8 = new DisplayFaceObject();
+		MyFrame frame9 = new DisplayFaceVector();
 
 		
 
