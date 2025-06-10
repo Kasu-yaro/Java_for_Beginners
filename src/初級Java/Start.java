@@ -15,10 +15,23 @@ public class Start {
 		//MyFrame frame6 = new Animation();
 		//MyFrame frame7 = new DisplayFace();
 		//MyFrame frame8 = new DisplayFaceObject();
-		MyFrame frame9 = new DisplayFaceVector();
+		//MyFrame frame9 = new DisplayFaceVector();
+		//MyFrame frame10 = new DisplayCars();
+		//MyFrame frame11 = new DisplayCarTrain();
+		//MyFrame frame12 = new DisplayCarTrains();
+		//MyFrame frame12 = new DisplayVehicleVector();
+		MyFrame frame13 = new PlayerAnimation();
+
 
 		
 
 		
 	}
+
+	public static int getWidth() {
+		// TODO 自動生成されたメソッド・スタブ
+		return 0;
+	}
+	
+
 }
